@@ -1,8 +1,14 @@
-import { Box } from "@mui/material";
-import { Link } from "react-router-dom";
+import { Box, Slide } from "@mui/material";
+import { Link, useNavigate } from "react-router-dom";
 
 const Starting = () => {
+  let navigate = useNavigate();
+  window.setTimeout(myFunction, 2000);
+  function myFunction() {
+    navigate('/lang')
+  }
   return (
+  
     <>
       <Box
         sx={{
@@ -14,22 +20,26 @@ const Starting = () => {
         }}
       >
         <Link to="lang">
-          <Box
-            component="img"
-            src="img/apnalogo.png"
-            alt="logo"
-            sx={{
-              width: "100vw",
-            }}
-          />
+          <Slide direction="down" in={true} timeout={2000} mountOnEnter unmountOnExit>
+            <img
+              src="img/apnalogo.png"
+              alt="logo"
+              style={{
+                width: "100vw",
+              }}
+            />
+          </Slide>
         </Link>
-        <Box
-          component="img"
+        <Slide direction="up" in={true} timeout={1000} mountOnEnter unmountOnExit>
+        
+        <img
           src="img/dlogo.jpg"
           alt="govt sign"
-          sx={{ width: "80vw" }}
+          style={{ width: "80vw" }}
         />
-      </Box>
+          </Slide>
+
+    </Box>
     </>
   );
 };

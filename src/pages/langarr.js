@@ -63,28 +63,28 @@ export const langarr = [
         icon: "https://web.umang.gov.in/web_new/assets/img/si.svg",
         lang: "Sindhi",
       },
-      {
-        icon: "https://web.umang.gov.in/web_new/assets/img/bo.svg",
-        lang: "Bodo",
-      },
-      {
-        icon: "https://web.umang.gov.in/web_new/assets/img/ne.svg",
-        lang: "Nepali",
-      },
-      {
-        icon: "https://web.umang.gov.in/web_new/assets/img/ma.svg",
-        lang: "Manipuri",
-      },
-      {
-        icon: "https://web.umang.gov.in/web_new/assets/img/ka.svg",
-        lang: "Kashmiri",
-      },
-      {
-        icon: "https://web.umang.gov.in/web_new/assets/img/do.svg",
-        lang: "Dogri",
-      },
-      {
-        icon: "https://web.umang.gov.in/web_new/assets/img/mi.svg",
-        lang: "Maithali",
-      },
+  //     {
+  //       icon: "https://web.umang.gov.in/web_new/assets/img/bo.svg",
+  //       lang: "Bodo",
+  //     },
+  //     {
+  //       icon: "https://web.umang.gov.in/web_new/assets/img/ne.svg",
+  //       lang: "Nepali",
+  //     },
+  //     {
+  //       icon: "https://web.umang.gov.in/web_new/assets/img/ma.svg",
+  //       lang: "Manipuri",
+  //     },
+  //     {
+  //       icon: "https://web.umang.gov.in/web_new/assets/img/ka.svg",
+  //       lang: "Kashmiri",
+  //     },
+  //     {
+  //       icon: "https://web.umang.gov.in/web_new/assets/img/do.svg",
+  //       lang: "Dogri",
+  //     },
+  //     {
+  //       icon: "https://web.umang.gov.in/web_new/assets/img/mi.svg",
+  //       lang: "Maithali",
+  //     },
   ];
