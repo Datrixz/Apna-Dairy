@@ -1,4 +1,4 @@
-import { Button, Paper, TextField, Typography } from '@mui/material'
+import { Button, Card, TextField, Typography } from '@mui/material'
 import React from 'react'
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import { Box } from '@mui/system';
@@ -15,7 +15,7 @@ const OTP = () => {
       justifyContent: "center",
     }}
   >
-    <Paper elevation={4} sx={{ px:2 ,py:6}}>
+    <Card elevation={4} sx={{ px:2 ,py:6}}>
       <Typography variant="h4" color="initial">
         SignUp
       </Typography>
@@ -32,7 +32,7 @@ const OTP = () => {
       <Button component={Link} to='/bank' variant="contained" size="large" endIcon={<ArrowForwardIosIcon />}>
         Submit
       </Button>
-    </Paper>
+    </Card>
   </Box>
   )
 }
